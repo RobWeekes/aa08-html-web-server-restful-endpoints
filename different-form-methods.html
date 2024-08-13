@@ -10,14 +10,17 @@
 
 <body>
   <!-- clicking on this <a> tag will make a GET / request -->
+    <!-- /resource GET  -->
   <a href="/">Link to Resource</a>
 
   <!-- submitting this <form> will make a GET / request -->
+    <!-- /resource/contact GET -->
   <form action="/" method="GET">
     <button type="submit">GET</button>
   </form>
 
   <!-- submitting this <form> will make a POST / request -->
+    <!-- /resource/contact POST  -->
   <form action="/" method="POST">
     <button type="submit">POST</button>
   </form>
@@ -33,6 +36,7 @@
   </form>
 
   <!-- submitting this <form> will make a GET / request -->
+    <!-- /resource/:postID DELETE  -->
   <form action="/" method="DELETE">
     <button type="submit">DELETE</button>
   </form>
