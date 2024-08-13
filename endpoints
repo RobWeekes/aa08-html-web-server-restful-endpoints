@@ -1,34 +1,34 @@
 Access the home page
 
 GET /
-# / GET
+# GET /
 GET /home
-# /home GET
+# GET /home
 Submit a contact form
-# /contact POST
+#  /contact
 Access the posts page
-# /posts GET
+# GET /posts
 Access the edit page for a post
-# /:postID/edit GET
+# GET /posts/:postID/edit
 Access the create page for a post
-# /posts/new GET
+# GET /posts/new
 Create a new user
-# /users/new GET
+# GET /users/new
 Log In
-# /login POST
+# POST /login
 Log Out
-# /logout POST
+# POST /logout
 Access the comments for a post page
-# /:postID/comments GET
+# GET /posts/:postID/comments
 Access the create page for a post's comment
-# /:postID/new GET
+# GET /posts/:postID/new
 Access the edit page for a comment
-# /:postID/:commentID/edit GET
+# GET /posts/:postID/:commentID/edit
 Submit a like for a post
-# /:postID POST
+# POST /:postID
 Delete a like for a post
-# /:postID POST
+# POST /:postID
 Access all the posts of a user
-# /:userID/posts GET
+# GET /:userID/posts
 Submit a search on posts
-# /posts/search GET
+# GET /posts/search
